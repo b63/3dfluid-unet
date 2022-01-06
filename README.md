@@ -4,6 +4,8 @@ Nueral Network is a 3D U-net, and is trained on a loss function based on Naiver-
 incompressible fluids.
 
 # Examples
+For all the following examples, the initial velocity fields was all zero inside the boundary and fluid flowing in the -x direction at the boundaries. The model will predict how the velocity/pressures field will change in later time steps, keeping with the Naiver-Stokes equations as closely as possible.
+
 Pressure field and velocity field around a spinning Cylinder clockwise.
 ![Pressure Field for Spinning Cylinder](images/p_field_cylinder.png)
 ![Velocity Field for Spinning Cylinder](images/v_field_cylinder.png)
